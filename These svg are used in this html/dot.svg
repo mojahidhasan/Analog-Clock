@@ -1,13 +1,20 @@
-<svg width="2.766mm" height="2.7659mm" version="1.1" viewBox="0 0 2.766 2.7659" xmlns="http://www.w3.org/2000/svg">
- <defs>
-  <linearGradient id="linearGradient884" x1="95.489" x2="94.231" y1="140.85" y2="139.6" gradientTransform="matrix(1.1961,0,0,1.1961,-18.601,-27.493)" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#503c00" offset="0"/>
-   <stop stop-color="#ffc300" offset="1"/>
-  </linearGradient>
-  <filter id="filter1134" x="-1.0216e-5" y="-1.1455e-5" width="1" height="1" color-interpolation-filters="sRGB">
-   <feGaussianBlur stdDeviation="0.00047920678"/>
-  </filter>
- </defs>
- <path transform="matrix(1.6964 0 0 1.6963 -159.56 -236.5)" d="m95.687 140.23a0.81524 0.81524 0 0 1-0.81524 0.81524 0.81524 0.81524 0 0 1-0.81524-0.81524 0.81524 0.81524 0 0 1 0.81524-0.81524 0.81524 0.81524 0 0 1 0.81524 0.81524" fill="url(#linearGradient884)" stroke-width=".04067"/>
- <path transform="matrix(1.4112 -1.1261 1.6489 .16985 -293.63 -14.645)" d="m12.168 168.32a0.22551 0.11275 0 0 1-0.22551 0.11276 0.22551 0.11275 0 0 1-0.22551-0.11276 0.22551 0.11275 0 0 1 0.22551-0.11275 0.22551 0.11275 0 0 1 0.22551 0.11275" fill="#f9f9f9" filter="url(#filter1134)" />
-</svg>
+<svg id="dot" width="3.766mm" height="3.7659mm" version="1.1" viewBox="0 0 2.766 2.7659"
+                xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="linearGradient884" x1="95.489" x2="94.231" y1="140.85" y2="139.6"
+                        gradientTransform="matrix(1.1961,0,0,1.1961,-18.601,-27.493)" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#530000" offset="0" />
+                        <stop stop-color="#ff8686" offset="1" />
+                    </linearGradient>
+                    <filter id="filter1134" x="-1.0216e-5" y="-1.1455e-5" width="1" height="1"
+                        color-interpolation-filters="sRGB">
+                        <feGaussianBlur stdDeviation="0.00047920678" />
+                    </filter>
+                </defs>
+                <path transform="matrix(1.6964 0 0 1.6963 -159.56 -236.5)"
+                    d="m95.687 140.23a0.81524 0.81524 0 0 1-0.81524 0.81524 0.81524 0.81524 0 0 1-0.81524-0.81524 0.81524 0.81524 0 0 1 0.81524-0.81524 0.81524 0.81524 0 0 1 0.81524 0.81524"
+                    fill="url(#linearGradient884)" opacity=".98206" stroke-width=".04067" />
+                <path transform="matrix(1.4112 -1.1261 1.6489 .16985 -293.63 -14.645)"
+                    d="m12.168 168.32a0.22551 0.11275 0 0 1-0.22551 0.11276 0.22551 0.11275 0 0 1-0.22551-0.11276 0.22551 0.11275 0 0 1 0.22551-0.11275 0.22551 0.11275 0 0 1 0.22551 0.11275"
+                    fill="#f9f9f9" filter="url(#filter1134)" opacity=".995" />
+            </svg>
