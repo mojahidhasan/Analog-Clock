@@ -137,7 +137,7 @@
 
             var d = new Date();
             var h = d.getHours() * 30; // 360deg / 12hour = 30; Clock's hour-hand rotates 30deg per hour.
-            var m = d.getMinutes() * 6; // 360deg / 3600sec = 0.1; Clock's minute-hand rotates 6deg per minute.
+            var m = d.getMinutes() * 6; // 360deg / 60min = 6; Clock's minute-hand rotates 6deg per minute.
             var s = d.getSeconds() * 6; //360deg / 60sec = 6; Clock's second-hand rotates 6deg per second.
 
             hour.style.transform = 'rotate(' + (h + m / 12) + 'deg)';
