@@ -54,12 +54,14 @@
         top: 292.5px;
         left: 251.78px;
         transform-origin: 48.22px 7.5px;
+        z-index: 2;
       }
 
       #min {
         top: 292.5px;
         left: 237.6px;
         transform-origin: 62.4px 7.5px;
+        z-index: 2;
       }
 
       #sec {
@@ -67,18 +69,35 @@
         top: 287.5px;
         transform-origin: 90px center;
         fill: #000000;
+        z-index: 2;
       }
 
       #dot {
         top: 292.89px;
         left: 292.89px;
         transform: rotate(90deg);
+        z-index: 2;
+      }
+
+      #digital {
+        position: absolute;
+        top: 28%;
+        left: 50%;
+        z-index: 1;
+        transform: translateX(-50%);
+        font-size: 40px;
+        color: #000000;
+        padding: 5px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
       }
     </style>
   </head>
 
   <body>
     <div id="parent">
+      <div id="digital">f</div>
       <div id="clock"></div>
       <div>
         <svg
@@ -198,15 +217,15 @@
     </div>
     <script>
       //function calls
-      date();
+      analogTime();
       scaleClock();
-      setInterval(date, 1000);
+      setInterval(analogTime, 1000);
 
       //event listeners
       window.addEventListener("resize", scaleClock);
 
       //functions
-      function date() {
+      function analogTime() {
         var hour = document.getElementById("hour");
         var min = document.getElementById("min");
         var sec = document.getElementById("sec");
@@ -219,6 +238,22 @@
         hour.style.transform = "rotate(" + (h + m / 12) + "deg)";
         min.style.transform = "rotate(" + (m + s / 60) + "deg)";
         sec.style.transform = "rotate(" + s + "deg)";
+
+        digitalTime(
+          d.getHours().toString(),
+          d.getMinutes().toString(),
+          d.getSeconds().toString()
+        );
+      }
+
+      function digitalTime(h, m, s) {
+        var digital = document.getElementById("digital");
+        digital.innerHTML =
+          h.padStart(2, "0") +
+          ":" +
+          m.padStart(2, "0") +
+          ":" +
+          s.padStart(2, "0");
       }
 
       function scaleClock() {
