@@ -17,7 +17,7 @@
    <feGaussianBlur stdDeviation="0.64589268"/>
   </filter>
  </defs>
- <g transform="rotate(-90 79.377 79.379)">
+ <g transform="translate(-.0096952 .0045882)">
   <path id="back" d="m79.374 151.87a72.496 72.495 0 0 1-72.496-72.495 72.496 72.495 0 0 1 72.496-72.495 72.496 72.495 0 0 1 72.496 72.495 72.496 72.495 0 0 1-72.496 72.495z" fill="#ffffff" stroke-width="1.0768" style="fill:#f9f9f9"/>
   <g shape-rendering="auto">
    <path transform="matrix(1.0052 0 0 .99549 261.31 38.121)" d="m-181.66-31.076c-40.237 1e-6 -72.891 32.916-72.891 73.428s32.654 73.426 72.891 73.426 72.891-32.914 72.891-73.426-32.654-73.428-72.891-73.428zm0 5.0645c37.48 1e-6 67.828 30.567 67.828 68.363s-30.349 68.363-67.828 68.363c-37.48 0-67.826-30.567-67.826-68.363s30.347-68.363 67.826-68.363z" color="#000000" color-rendering="auto" dominant-baseline="auto" filter="url(#filter1130)" image-rendering="auto" opacity=".35161" solid-color="#000000" stop-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;shape-margin:0;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>

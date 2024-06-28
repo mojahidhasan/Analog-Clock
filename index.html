@@ -39,8 +39,8 @@
         position: relative;
         min-height: 600px;
         min-width: 600px;
+        transform: rotate(-90deg) !important;
       }
-
       #clock::before {
         position: absolute;
         content: url("svg/clock.svg");
@@ -81,10 +81,10 @@
 
       #digital {
         position: absolute;
-        top: 28%;
-        left: 50%;
+        top: 50%;
+        left: 65%;
         z-index: 1;
-        transform: translateX(-50%);
+        transform: translate(-50%, -50%) rotate(90deg);
         font-size: 40px;
         color: #000000;
         padding: 5px;
@@ -97,7 +97,7 @@
 
   <body>
     <div id="parent">
-      <div id="digital">f</div>
+      <div id="digital"></div>
       <div id="clock"></div>
       <div>
         <svg
