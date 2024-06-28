@@ -1,2 +1,11 @@
 # Analog-Clock
-This is an Analog Clock made with HTML, CSS, JavaScript and SVG as well.
+
+An Analog Clock made with HTML, CSS, JavaScript and SVG. Old Simple project.
+
+**To download:**
+
+```
+git clone https://github.com/mojahidhasan/Analog-Clock.git
+```
+
+[See live preview](https://github.com/mojahidhasan/Analog-Clock.git)
