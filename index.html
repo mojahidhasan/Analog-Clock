@@ -222,12 +222,11 @@
       }
 
       function scaleClock() {
-        var vw = Math.min(window.innerWidth / 600, 1);
-        var vh = Math.min(window.innerHeight / 600, 1);
-        document.getElementById("parent").style.transform = `scale(${Math.min(
-          vh,
-          vw
-        )})`;
+        var vw = Math.min(window.innerWidth / 600, 1.5);
+        var vh = Math.min(window.innerHeight / 600, 1.5);
+        document.getElementById("parent").style.transform = `scale(${
+          Math.min(vh, vw) * 0.9
+        })`;
       }
     </script>
   </body>
