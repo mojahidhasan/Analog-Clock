@@ -8,4 +8,4 @@ An Analog Clock made with HTML, CSS, JavaScript and SVG. Old Simple project.
 git clone https://github.com/mojahidhasan/Analog-Clock.git
 ```
 
-[See live preview](https://mojahidhasan.github.io/Analog-Clock/)
+[See live preview](https://mojahidhasan.github.io/Analog-Clock/).
